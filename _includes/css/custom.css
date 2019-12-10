@@ -1,5 +1,6 @@
 header{
     background-image: url(img/bckg_1.jpg);
+    background-position: bottom left;
 }
 hr.star-light:after {
     background-color: transparent;
