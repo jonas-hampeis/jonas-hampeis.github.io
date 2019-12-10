@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 2
+date: 2019-10-12
+img: GitHub_logo.png
+alt: image-alt
+category: GitHub
+description: You can go ahead and check out my <a href="https://github.com/jonas-hampeis">GitHub page</a>!
+
+---

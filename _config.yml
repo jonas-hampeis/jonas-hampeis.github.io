@@ -1,14 +1,66 @@
-
+# Site settings
 title: Jonáš Hampeis
 email: jonas@hampeis.cz
-description: >
-  I am a web developer focusing on everything JavaScript.
-baseurl: "" 
-url: "" 
-github_username:  jonas-hampeis
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
-theme: jekyll-theme-minimal
-
+remote_theme: jeromelachaud/freelancer-theme 
 plugins:
   - jekyll-feed
+
+# Site settings
+title: Jonáš Hampeis
+url: https://jonas-hampeis.github.io
+description: "I am a web developer focusing on everything JavaScript"
+keywords: "web, developer, tester, web developer"
+skills: "Web Developer - Tester"
+meta_author: Hampeis Jonáš
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 51860c #80B3FF
+  primary-rgb: "81,134,12" #"128,179,255"
+  secondary: 20251a #FD6E8A
+  secondary-dark: 0d0f0b #A2122F
+
+# Footer settings
+footer:
+  copyright: Jonáš Hampeis
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: https://github.com/jonas-hampeis/
+  - title: linkedin
+    url: https://www.linkedin.com/in/jon%C3%A1%C5%A1-hampeis-248540180/
+  - title: instagram
+    url: https://www.instagram.com/shtraabi/
+  
+# Postal address (add as many lines as necessary)
+address:
+  - line: Kladno/Praha
+
+# Credits content
+credits: 'This web uses Freelancer, which is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty

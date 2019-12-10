@@ -1,0 +1,15 @@
+header{
+    background-image: url(img/bckg_1.jpg);
+}
+hr.star-light:after {
+    background-color: transparent;
+}
+hr.star-light {
+    border-image: url(img/border.png) 2 round;  
+}
+.name{
+    text-shadow: 2px 2px 4px black;
+}
+.skills{
+    text-shadow: 2px 2px 3px black;
+}
